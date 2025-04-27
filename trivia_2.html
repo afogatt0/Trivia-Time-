@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Time!</title>
+  <style>
+  body {
+  background-color: #234772;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  }
+
+  .container {
+  text-align: center; /* Center the content within the container */
+  }
+
+  img {
+  max-width: 55%; /* Default image size */
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Added shadow */
+  }
+
+  /* Media query for screens with a maximum width of 768 pixels (typical for phones) */
+  @media (max-width: 768px) {
+  img {
+  max-width: 90%; /* Make the image larger on phones */
+  }
+  }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+  <img src="trivia_2.png" alt="Trivia Image">
+  </div>
+ </body>
+ </html>
